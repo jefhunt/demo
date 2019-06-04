@@ -1,9 +1,9 @@
 #! /bin/bash
 
-BUCKET_NAME=demo-webserver
+BUCKET_NAME=demo-webserver-test
 
 JAR_NAME=demo-0.0.1-SNAPSHOT.jar
-VM_NAME=web-server
+VM_NAME=web-server-test
 
 gsutil mb gs://${BUCKET_NAME}
 gsutil cp ./target/${JAR_NAME} gs://${BUCKET_NAME}/${JAR_NAME}

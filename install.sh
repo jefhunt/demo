@@ -2,7 +2,7 @@
 
 ## This startup script runs ON the compute vm
 
-BUCKET_NAME=demo-webserver
+BUCKET_NAME=demo-webserver-test
 JAR_NAME=demo-0.0.1-SNAPSHOT.jar
 
 sudo su -
