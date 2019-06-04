@@ -19,6 +19,6 @@ apt-get install oracle-java8-installer -y
 
 mkdir /opt/demo
 
-gsutil cp gs://${BUCKET_NAME}/${JAR_NAME} /opt/gcedeploy/${JAR_NAME}
-java -jar /opt/gcedeploy/${JAR_NAME} &
+gsutil cp gs://${BUCKET_NAME}/${JAR_NAME} /opt/demo/${JAR_NAME}
+java -jar /opt/demo/${JAR_NAME} &
 exit
