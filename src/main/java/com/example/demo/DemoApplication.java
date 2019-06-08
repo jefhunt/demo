@@ -19,4 +19,9 @@ public class DemoApplication {
 		return "Hello Spring Boot!";
 	}
 
+	@GetMapping("/app-test")
+	public String test() {
+		return "Testing another api Hello Spring Boot!";
+	}
+
 }
